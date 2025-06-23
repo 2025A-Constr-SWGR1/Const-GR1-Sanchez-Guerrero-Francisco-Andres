@@ -9,6 +9,6 @@ export class AppService {
     //console.warn('warn!');
     //console.error('error!');
 
-    return 'Hello World!!';
+    return 'Hello World!';
   }
 }
