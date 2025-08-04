@@ -12,10 +12,10 @@ jobs:
         with:
           node-version: "22.x"
       - name: Instalar dependencias
-        working-directory: ./calculadora
+        working-directory: ./CleanCodeProject
         run: |
           npm ci
       - name: Compilar la aplicación
-        working-directory: ./calculadora
+        working-directory: ./CleanCodeProject
         run: |
           npm run build
